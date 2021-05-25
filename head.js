@@ -1,6 +1,5 @@
 // Function head
 const head = function (array) {
-  console.log(array[0]);
   return array[0];
 };
 
@@ -30,7 +29,7 @@ const assertEqual = function(actual, expected) {
 };
 
 // TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
 
-head([])
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
