@@ -16,9 +16,9 @@ const assertEqual = function(actual, expected) {
   }
   
   if (actual === expected) {
-    console.log('✅✅✅ Assertion Passed: ' + semiCommaA + actual + semiCommaA + ' === ' + semiCommaB + expected + semiCommaB);
+    console.log(`✅✅✅ Assertion Passed: ${semiCommaA}${actual}${semiCommaA} === ${semiCommaB}${expected}${semiCommaB}`);
   } else {
-    console.log('🛑🛑🛑 Assertion Failed: ' + semiCommaA + actual + semiCommaA + ' !== ' + semiCommaB + expected + semiCommaB);
+    console.log(`🛑🛑🛑 Assertion Failed: ${semiCommaA}${actual}${semiCommaA} !== ${semiCommaB}${expected}${semiCommaB}`);
   }
 
 };
