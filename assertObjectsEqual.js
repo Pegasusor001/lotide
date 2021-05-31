@@ -8,6 +8,8 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
+module.exports = assertObjectsEqual;
+
 
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length) {
@@ -48,9 +50,9 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-const abc = { a: "1", b: "2", c: "3" };
-a = assertObjectsEqual(ab, ba);
-b = assertObjectsEqual(ab, abc); 
+// const ab = { a: "1", b: "2" };
+// const ba = { b: "2", a: "1" };
+// const abc = { a: "1", b: "2", c: "3" };
+// a = assertObjectsEqual(ab, ba);
+// b = assertObjectsEqual(ab, abc); 
 // console.log(a, b);

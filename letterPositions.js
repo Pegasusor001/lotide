@@ -14,5 +14,7 @@ const letterPositions = function(sentence) {
   return result;
 };
 
-console.log(letterPositions('aabc bdd'))
+module.exports = letterPositions;
+
+// console.log(letterPositions('aabc bdd'))
 // console.log(' ', typeof ' ', ' ' === ' ')

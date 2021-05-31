@@ -12,4 +12,5 @@ const countLetters = function(sentense) {
   return result
 }
 
-console.log(countLetters('LHLHJJ'))
+module.exports = countLetters;
+// console.log(countLetters('LHLHJJ'))

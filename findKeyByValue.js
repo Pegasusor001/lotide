@@ -7,11 +7,13 @@ const findKeyByValue = function(obj, value) {
   return undefined
 }
 
-const bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
+module.exports = findKeyByValue;
 
-a = findKeyByValue(bestTVShowsByGenre, "The Wire")
-console.log(a)
+// const bestTVShowsByGenre = { 
+//   sci_fi: "The Expanse",
+//   comedy: "Brooklyn Nine-Nine",
+//   drama:  "The Wire"
+// };
+
+// a = findKeyByValue(bestTVShowsByGenre, "The Wire")
+// console.log(a)
