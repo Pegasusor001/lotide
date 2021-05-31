@@ -12,5 +12,7 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
+module.exports = eqArrays;
+
 // TEST CODE
-console.log(eqArrays([1, 2, 3], [1, 2, 'a']))
+// console.log(eqArrays([1, 2, 3], [1, 2, 'a']))
