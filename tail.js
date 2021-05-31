@@ -1,10 +1,11 @@
 // Function tail
 const tail = function (array) {
-  console.log(array.slice(1));
   return array.slice(1);
 };
 
+module.exports = tail;
 
+/* 
 // Function head
 const head = function (array) {
   return array[0];
@@ -34,6 +35,7 @@ const assertEqual = function(actual, expected) {
   }
 
 };
+ */
 
 // TEST CODE
 // assertEqual("Lighthouse Labs", "Bootcamp");
@@ -41,4 +43,4 @@ const assertEqual = function(actual, expected) {
 
 // assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
-tail([1,2,3,4])
+// tail([1,2,3,4])

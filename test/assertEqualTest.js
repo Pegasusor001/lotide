@@ -1,8 +1,6 @@
 const assertEqual = require('../assertEqual');
 const head = require('../head')
-//
-// console.log(head["Hello", "Lighthouse", "Labs"])
-// console.log(assertEqual('a','a'))
 
+// test code 
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
