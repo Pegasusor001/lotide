@@ -9,4 +9,6 @@ const middle = function(array) {
   
 };
 
-console.log(middle([1,2,3,4,5]), middle([1,2,3,4,5,6]), middle([1]))
+module.exports = middle;
+
+// console.log(middle([1,2,3,4,5]), middle([1,2,3,4,5,6]), middle([1]))
