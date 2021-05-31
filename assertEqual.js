@@ -4,13 +4,13 @@ const assertEqual = function(actual, expected) {
   let semiCommaB = '';
   
   if (typeof(actual) === 'string') {
-    semiCommaA = '"';
+    semiCommaA = '\"';
   } else {
     semiCommaA = '';
   }
 
   if (typeof(expected) === 'string') {
-    semiCommaB = '"';
+    semiCommaB = '\"';
   } else {
     semiCommaB = '';
   }
@@ -23,6 +23,8 @@ const assertEqual = function(actual, expected) {
 
 };
 
+module.exports = assertEqual;
+
 // TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
