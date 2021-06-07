@@ -1,20 +1,20 @@
 {
-  "name": "lotide",
+  "name": "@lun_ji/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a list of mini functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pegasusor001/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "lun_ji",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pegasusor001/lotide/issues"
